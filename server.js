@@ -1,8 +1,7 @@
 const Discord = require("discord.js");
-const db = require("mongosha");
 const client = new Discord.Client();
-const mongo = require('mongosha');
-mongo.connect(ayar.bot.mongoURL);
+const db = require("mongosha");
+db.connect(ayar.bot.mongoURL);
 const ayar = require("./settings.json");
 client.login(ayar.bot.token);
 
