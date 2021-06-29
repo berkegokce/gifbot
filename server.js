@@ -1,9 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const db = require("mongosha");
+db.connect();
 const ayar = require("./settings.json");
-db.connect(ayar.bot.mongoURL);
-client.login(ayar.bot.token);
 
 client.on("ready", () => {
   client.user.setActivity(ayar.bot.botdurum, {
@@ -180,3 +179,5 @@ client.on("message", async message => {
     });
   }
 });
+
+client.login(ayar.bot.token);
