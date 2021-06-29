@@ -1,2 +1,3 @@
-# gifbot
-Gif sunucuları için loglu gif botu 
+# Gif Bot
+
+- Herşey çok basit sadece `settings.json` içini doldurup botu başlatabilirsiniz.
