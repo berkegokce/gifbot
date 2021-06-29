@@ -1,0 +1,37 @@
+{
+  "bot": {
+    "token": "", // bot token
+    "prefix": "", // prefix
+    "sahip": "", // owner id
+    "sunucuID": "", // sunucu id
+    "sunucuIsim": "", // sunucu ismi
+    "mongoURL": "", // mongo url
+    "embedColor": "", // embed colorları
+    "botdurum": "",
+    "botses": ""
+  },
+
+  "emojiler": {
+    "boostMesajEmojiID": "", // boost mesajına emoji ekler
+    "boosterIsimEmoji": "" // boost basınca isminin sonuna emoji ekler - clasus (emoji)
+  },
+
+  "roller": {
+    "membersRol": "", // yeni üye rol
+    "boosterRol": "" // boost rolü
+  },
+
+  "giflog": {
+    "LogSayilmayacakKanalID": ["", "", ""], // bu id deki kanallara gif atılırsa log'a düşmez ve sayılmaz
+    "logKanal": "" // giflog kanalı
+  },
+
+  "GifKanal": {
+    "gifKanalID": ["", "", "", ""] // bu gif kanalların id'si - woman - man v.s
+  },
+
+  "randomPpGif": {
+    "gif": "", // random gif kanal
+    "pp": "" // random pp kanal
+  }
+}
