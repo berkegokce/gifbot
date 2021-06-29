@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const db = require("mongosha");
-db.connect();
+db.connect("MONGOSHA CONNECT LINK");
 const ayar = require("./settings.json");
 
 client.on("ready", () => {
